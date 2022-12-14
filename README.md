@@ -1,5 +1,5 @@
 <div align="center">
-    <h2>⚜️ Q U O T E &nbsp; G E N E R A T O R ⚜️</h2>
+    <h2>⚜️ Q U O T E S &nbsp; G E N E R A T O R ⚜️</h2>
 </div>
 
 <p align="center">
@@ -13,7 +13,7 @@
 <h3 align="center">
     <img src="./.github/readme-gif.gif" alt="project gif" height="400px">
     <br>
-    <a href="https://erickks.github.io/quote-generator/">live demo</a>
+    <a href="https://erickks.github.io/quotes-generator/">live demo</a>
 </h3>
 
 <br><hr>
@@ -37,4 +37,4 @@
 ## 🧾 Features
 
 - [x] Get a random quote from API
-- [x] Copy quote for your clipboard
+- [x] Copy the quote for your clipboard
