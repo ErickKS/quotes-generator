@@ -115,8 +115,9 @@ a {
 #generator {
   width: 6.8rem;
   height: 6.8rem;
+  outline: none;
 }
-#generator:hover {
+#generator:is(:hover, :focus) {
   box-shadow: 0 0 1rem 0.3rem #3cc882;
 }
 
@@ -124,6 +125,7 @@ a {
   width: 5.6rem;
   height: 5.6rem;
   position: relative;
+  outline: none;
 }
 #clipboard::before {
   content: "copy";
@@ -154,6 +156,7 @@ a {
   justify-content: center;
   align-items: center;
   position: relative;
+  outline: none;
 
   width: 5.6rem;
   height: 5.6rem;
@@ -177,8 +180,8 @@ a:hover::before {
   visibility: visible;
 }
 
-#clipboard:hover,
-a:hover {
+#clipboard:is(:hover, :focus),
+a:is(:hover, :focus) {
   background-color: rgb(55, 212, 134);
 }
 
